@@ -1,0 +1,13 @@
+{
+  "_comment": "これはサンプルデータです。実際の備品リストに置き換えてください。id は半角英数字(URL・QRコードに使うため)、name は表示名、unit は単位、min_stock は最低在庫数、requires_qr は『持ち出し/使用のたびに個数が減る消耗品でQR登録の対象にするか』のtrue/falseです。行を追加・削除・編集して、このファイルをこのままGitHub上で保存すれば反映されます。",
+  "items": [
+    { "id": "i01", "name": "ペーパータオル", "unit": "袋", "min_stock": 15, "requires_qr": false, "shelf": "倉庫棚A" },
+    { "id": "i02", "name": "フローリングワイパー用ウェットシート", "unit": "パック", "min_stock": 3, "requires_qr": true, "shelf": "倉庫棚A" },
+    { "id": "i03", "name": "除菌シート", "unit": "パック", "min_stock": 2, "requires_qr": true, "shelf": "倉庫棚A" },
+    { "id": "i04", "name": "整備用シート", "unit": "パック", "min_stock": 5, "requires_qr": true, "shelf": "倉庫棚A" },
+    { "id": "i05", "name": "ボックスティッシュ", "unit": "箱", "min_stock": 3, "requires_qr": true, "shelf": "倉庫棚A" },
+    { "id": "i06", "name": "トイレットペーパー", "unit": "ロール", "min_stock": 8, "requires_qr": true, "shelf": "倉庫棚B" },
+    { "id": "i07", "name": "使い捨てスリッパ", "unit": "足", "min_stock": 10, "requires_qr": false, "shelf": "倉庫棚B" },
+    { "id": "i08", "name": "ハンドソープ", "unit": "本", "min_stock": 2, "requires_qr": true, "shelf": "倉庫棚B" }
+  ]
+}
