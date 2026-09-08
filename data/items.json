@@ -1,13 +1,37 @@
 {
-  "_comment": "これはサンプルデータです。実際の備品リストに置き換えてください。id は半角英数字(URL・QRコードに使うため)、name は表示名、unit は単位、min_stock は最低在庫数、requires_qr は『持ち出し/使用のたびに個数が減る消耗品でQR登録の対象にするか』のtrue/falseです。行を追加・削除・編集して、このファイルをこのままGitHub上で保存すれば反映されます。",
+  "_comment": "unit(単位)・min_stock(最低在庫数)・requires_qr(QR持ち出し管理の要否)は仮の値です。実際の運用に合わせて調整してください。",
   "items": [
-    { "id": "i01", "name": "ペーパータオル", "unit": "袋", "min_stock": 15, "requires_qr": false, "shelf": "倉庫棚A" },
-    { "id": "i02", "name": "フローリングワイパー用ウェットシート", "unit": "パック", "min_stock": 3, "requires_qr": true, "shelf": "倉庫棚A" },
-    { "id": "i03", "name": "除菌シート", "unit": "パック", "min_stock": 2, "requires_qr": true, "shelf": "倉庫棚A" },
-    { "id": "i04", "name": "整備用シート", "unit": "パック", "min_stock": 5, "requires_qr": true, "shelf": "倉庫棚A" },
-    { "id": "i05", "name": "ボックスティッシュ", "unit": "箱", "min_stock": 3, "requires_qr": true, "shelf": "倉庫棚A" },
-    { "id": "i06", "name": "トイレットペーパー", "unit": "ロール", "min_stock": 8, "requires_qr": true, "shelf": "倉庫棚B" },
-    { "id": "i07", "name": "使い捨てスリッパ", "unit": "足", "min_stock": 10, "requires_qr": false, "shelf": "倉庫棚B" },
-    { "id": "i08", "name": "ハンドソープ", "unit": "本", "min_stock": 2, "requires_qr": true, "shelf": "倉庫棚B" }
+    { "id": "i01", "name": "ペーパータオル", "unit": "袋", "min_stock": 5, "requires_qr": true, "shelf": "倉庫B" },
+    { "id": "i02", "name": "トイレお掃除シート", "unit": "パック", "min_stock": 3, "requires_qr": true, "shelf": "倉庫B" },
+    { "id": "i03", "name": "ゴミ袋Mサイズ持ち手付き", "unit": "巻", "min_stock": 5, "requires_qr": true, "shelf": "倉庫B" },
+    { "id": "i04", "name": "ゴミ袋70L", "unit": "巻", "min_stock": 5, "requires_qr": true, "shelf": "倉庫B" },
+    { "id": "i05", "name": "お風呂掃除セットC", "unit": "セット", "min_stock": 2, "requires_qr": false, "shelf": "倉庫B" },
+    { "id": "i06", "name": "黒いゴミ袋", "unit": "巻", "min_stock": 5, "requires_qr": true, "shelf": "倉庫B" },
+    { "id": "i07", "name": "ゴミ袋10L持ち手付き", "unit": "巻", "min_stock": 5, "requires_qr": true, "shelf": "倉庫B" },
+    { "id": "i08", "name": "クイックワイパーハンディー", "unit": "本", "min_stock": 2, "requires_qr": false, "shelf": "倉庫B" },
+    { "id": "i09", "name": "ゴミ袋90L", "unit": "巻", "min_stock": 5, "requires_qr": true, "shelf": "倉庫B" },
+    { "id": "i10", "name": "ゴミ袋45L", "unit": "巻", "min_stock": 5, "requires_qr": true, "shelf": "倉庫B" },
+
+    { "id": "i11", "name": "トイレットペーパー(バラ)", "unit": "個", "min_stock": 10, "requires_qr": true, "shelf": "倉庫棚A" },
+    { "id": "i12", "name": "コロコロスペア", "unit": "個", "min_stock": 3, "requires_qr": true, "shelf": "倉庫棚A" },
+    { "id": "i13", "name": "メラミンスポンジ", "unit": "個", "min_stock": 5, "requires_qr": true, "shelf": "倉庫棚A" },
+    { "id": "i14", "name": "風呂掃除スポンジ", "unit": "個", "min_stock": 3, "requires_qr": true, "shelf": "倉庫棚A" },
+    { "id": "i15", "name": "排水溝ネット", "unit": "パック", "min_stock": 3, "requires_qr": true, "shelf": "倉庫棚A" },
+    { "id": "i16", "name": "フローリングウェットシート", "unit": "パック", "min_stock": 3, "requires_qr": true, "shelf": "倉庫棚A" },
+    { "id": "i17", "name": "クイックルワイパー", "unit": "本", "min_stock": 2, "requires_qr": false, "shelf": "倉庫棚A" },
+    { "id": "i18", "name": "塩素タブレット", "unit": "個", "min_stock": 3, "requires_qr": true, "shelf": "倉庫棚A" },
+    { "id": "i19", "name": "11号ゴミ袋", "unit": "巻", "min_stock": 5, "requires_qr": true, "shelf": "倉庫棚A" },
+    { "id": "i20", "name": "ゴム手袋", "unit": "箱", "min_stock": 2, "requires_qr": true, "shelf": "倉庫棚A" },
+    { "id": "i21", "name": "お風呂掃除セットA", "unit": "セット", "min_stock": 2, "requires_qr": false, "shelf": "倉庫棚A" },
+    { "id": "i22", "name": "お風呂掃除セットB", "unit": "セット", "min_stock": 2, "requires_qr": false, "shelf": "倉庫棚A" },
+    { "id": "i23", "name": "トイレ掃除セットA", "unit": "セット", "min_stock": 2, "requires_qr": false, "shelf": "倉庫棚A" },
+    { "id": "i24", "name": "トイレ掃除セットB", "unit": "セット", "min_stock": 2, "requires_qr": false, "shelf": "倉庫棚A" },
+
+    { "id": "i25", "name": "除菌シート", "unit": "パック", "min_stock": 3, "requires_qr": true, "shelf": "倉庫棚C" },
+    { "id": "i26", "name": "クレンジングシート", "unit": "パック", "min_stock": 3, "requires_qr": true, "shelf": "倉庫棚C" },
+    { "id": "i27", "name": "ティッシュ", "unit": "箱", "min_stock": 5, "requires_qr": true, "shelf": "倉庫棚C" },
+    { "id": "i28", "name": "トイレットペーパー", "unit": "ロール", "min_stock": 10, "requires_qr": true, "shelf": "倉庫棚C" },
+    { "id": "i29", "name": "フローリングドライシート", "unit": "パック", "min_stock": 3, "requires_qr": true, "shelf": "倉庫棚C" },
+    { "id": "i30", "name": "キッチンペーパー", "unit": "個", "min_stock": 3, "requires_qr": true, "shelf": "倉庫棚C" }
   ]
 }
