@@ -30,8 +30,8 @@
     { "id": "i27", "name": "紙エプロン", "unit": "パック", "min_stock": 2, "shelf": "倉庫棚D" },
     { "id": "i28", "name": "ジアニスト", "unit": "箱", "min_stock": 1, "shelf": "倉庫棚D" },
     { "id": "i29", "name": "8号ゴミ袋", "unit": "パック", "min_stock": 2, "shelf": "倉庫棚D" },
-    { "id": "i30", "name": "キッチンペーパー", "unit": "個", "min_stock": 3, "shelf": "倉庫棚D" }
-    { "id": "i31", "name": "フローリングウエットシート", "unit": "個", "min_stock": 5, "shelf": "倉庫棚D" }
+    { "id": "i30", "name": "キッチンペーパー", "unit": "個", "min_stock": 3, "shelf": "倉庫棚D" },
+    { "id": "i31", "name": "フローリングウエットシート", "unit": "個", "min_stock": 5, "shelf": "倉庫棚D" },
     { "id": "i32", "name": "バスマジックリン（補充用）", "unit": "箱", "min_stock": 1, "shelf": "倉庫棚E" },
     { "id": "i33", "name": "シャンプー（補充用）", "unit": "箱", "min_stock": 1, "shelf": "倉庫棚E" },
     { "id": "i34", "name": "コンディショナー（補充用）", "unit": "箱", "min_stock": 1, "shelf": "倉庫棚E" },
@@ -41,7 +41,7 @@
     { "id": "i38", "name": "ボディーソープ（ボトル）", "unit": "個", "min_stock": 5, "shelf": "倉庫棚E" },
     { "id": "i39", "name": "綿棒", "unit": "個", "min_stock": 1, "shelf": "倉庫棚E" },
     { "id": "i40", "name": "ウタマロ", "unit": "個", "min_stock": 1, "shelf": "倉庫棚E" },
-    { "id": "i41", "name": "ガラスクリーナー", "unit": "個", "min_stock": 1, "shelf": "倉庫棚E" }
+    { "id": "i41", "name": "ガラスクリーナー", "unit": "個", "min_stock": 1, "shelf": "倉庫棚E" },
     { "id": "i42", "name": "プロテイン（チョコ）", "unit": "個", "min_stock": 3, "shelf": "倉庫棚E" },
     { "id": "i43", "name": "プロテイン（抹茶）", "unit": "個", "min_stock": 3, "shelf": "倉庫棚E" },
     { "id": "i44", "name": "プロテイン（イチゴ）", "unit": "個", "min_stock": 3, "shelf": "倉庫棚E" },
@@ -51,7 +51,7 @@
     { "id": "i48", "name": "リセッシュ（補充用）", "unit": "個", "min_stock": 1, "shelf": "倉庫棚F" },
     { "id": "i49", "name": "乳液", "unit": "個", "min_stock": 1, "shelf": "倉庫棚F" },
     { "id": "i50", "name": "化粧水", "unit": "個", "min_stock": 1, "shelf": "倉庫棚F" },
-    { "id": "i51", "name": "ボディローション", "unit": "個", "min_stock": 1, "shelf": "倉庫棚F" }
+    { "id": "i51", "name": "ボディローション", "unit": "個", "min_stock": 1, "shelf": "倉庫棚F" },
     { "id": "i52", "name": "セルゼロクリーム", "unit": "個", "min_stock": 1, "shelf": "倉庫棚F" },
     { "id": "i53", "name": "消臭力", "unit": "個", "min_stock": 1, "shelf": "倉庫棚F" },
     { "id": "i54", "name": "トイレマジックリン", "unit": "個", "min_stock": 1, "shelf": "倉庫棚F" },
@@ -59,6 +59,6 @@
     { "id": "i56", "name": "パイプユニッシュ", "unit": "個", "min_stock": 1, "shelf": "倉庫棚F" },
     { "id": "i57", "name": "カビキラー", "unit": "個", "min_stock": 1, "shelf": "倉庫棚F" },
     { "id": "i58", "name": "洗濯用カビキラー", "unit": "個", "min_stock": 1, "shelf": "倉庫棚F" },
-    { "id": "i59", "name": "水素水ボトル各色", "unit": "個", "min_stock": 3, "shelf": "倉庫棚F" },
+    { "id": "i59", "name": "水素水ボトル各色", "unit": "個", "min_stock": 3, "shelf": "倉庫棚F" }
   ]
 }
