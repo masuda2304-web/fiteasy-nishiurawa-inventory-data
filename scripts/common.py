@@ -1,7 +1,7 @@
 """
 フィットイージー西浦和店 備品在庫管理システム 共通処理
 
-GitHub Actions から呼び出される check_counts.py / check_checkouts.py が
+GitHub Actions から呼び出される check_counts.py が
 共通で使う関数をまとめたモジュールです。
 """
 import json
@@ -17,7 +17,6 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ITEMS_PATH = os.path.join(REPO_ROOT, "data", "items.json")
 STAFF_PATH = os.path.join(REPO_ROOT, "data", "staff.json")
 COUNTS_DIR = os.path.join(REPO_ROOT, "data", "counts")
-CHECKOUTS_DIR = os.path.join(REPO_ROOT, "data", "checkouts")
 
 
 def load_json(path):
@@ -49,7 +48,7 @@ def parse_iso(ts):
 
 
 def load_all_counts():
-    """counts/*.json を全て読み込み、(datetime, dict) のリストを時系列昇順で返す"""
+    """counts/*.json を全て読み込み、(datetime, dict, path) のリストを時系列昇順で返す"""
     result = []
     for path in list_data_files(COUNTS_DIR):
         data = load_json(path)
@@ -57,31 +56,6 @@ def load_all_counts():
         result.append((ts, data, path))
     result.sort(key=lambda x: x[0])
     return result
-
-
-def load_all_checkouts():
-    """checkouts/*.json を全て読み込み、(datetime, dict) のリストを時系列昇順で返す"""
-    result = []
-    for path in list_data_files(CHECKOUTS_DIR):
-        data = load_json(path)
-        ts = parse_iso(data["timestamp"])
-        result.append((ts, data, path))
-    result.sort(key=lambda x: x[0])
-    return result
-
-
-def sum_checkouts_between(checkouts, start_ts, end_ts, item_id):
-    """start_ts(排他) 〜 end_ts(包含) の間の、指定item_idの持ち出し数量合計"""
-    total = 0
-    for ts, data, _path in checkouts:
-        if data.get("item_id") != item_id:
-            continue
-        if start_ts is not None and ts <= start_ts:
-            continue
-        if ts > end_ts:
-            continue
-        total += data.get("qty", 0)
-    return total
 
 
 def send_chatwork_message(message):
