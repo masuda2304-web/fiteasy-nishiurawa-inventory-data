@@ -411,6 +411,12 @@
   },
   "i27": {
     "order_freq_per_month": 1,
-    "history": []
+    "history": [
+      {
+        "date": "2026-10-21",
+        "price": 8.8,
+        "note": ""
+      }
+    ]
   }
 }
