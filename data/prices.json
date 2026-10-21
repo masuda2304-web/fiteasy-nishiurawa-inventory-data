@@ -233,5 +233,15 @@
         "note": ""
       }
     ]
+  },
+  "i33": {
+    "order_freq_per_month": 0,
+    "history": [
+      {
+        "date": "2026-10-21",
+        "price": 5351,
+        "note": ""
+      }
+    ]
   }
 }
