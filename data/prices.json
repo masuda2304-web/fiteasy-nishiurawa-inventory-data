@@ -38,5 +38,15 @@
         "note": ""
       }
     ]
+  },
+  "i25": {
+    "order_freq_per_month": 0,
+    "history": [
+      {
+        "date": "2026-10-21",
+        "price": 3733,
+        "note": ""
+      }
+    ]
   }
 }
