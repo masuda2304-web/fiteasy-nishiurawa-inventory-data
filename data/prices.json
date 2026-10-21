@@ -105,7 +105,13 @@
   },
   "i09": {
     "order_freq_per_month": 1,
-    "history": []
+    "history": [
+      {
+        "date": "2026-10-21",
+        "price": 1580,
+        "note": ""
+      }
+    ]
   },
   "i10": {
     "order_freq_per_month": 0,
