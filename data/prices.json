@@ -8,5 +8,15 @@
         "note": "アスクル　1ロールあたりの金額"
       }
     ]
+  },
+  "i57": {
+    "order_freq_per_month": 0,
+    "history": [
+      {
+        "date": "2026-10-21",
+        "price": 370,
+        "note": "amazon"
+      }
+    ]
   }
 }
