@@ -263,5 +263,15 @@
         "note": ""
       }
     ]
+  },
+  "i46": {
+    "order_freq_per_month": 0,
+    "history": [
+      {
+        "date": "2026-10-21",
+        "price": 4133.34,
+        "note": ""
+      }
+    ]
   }
 }
