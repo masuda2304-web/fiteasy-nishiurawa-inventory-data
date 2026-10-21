@@ -50,7 +50,7 @@
     ]
   },
   "i20": {
-    "order_freq_per_month": 0,
+    "order_freq_per_month": 1,
     "history": [
       {
         "date": "2026-10-21",
