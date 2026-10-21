@@ -246,6 +246,12 @@
   },
   "i34": {
     "order_freq_per_month": 0,
-    "history": []
+    "history": [
+      {
+        "date": "2026-10-21",
+        "price": 7890,
+        "note": ""
+      }
+    ]
   }
 }
