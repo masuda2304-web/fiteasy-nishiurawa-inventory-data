@@ -148,5 +148,15 @@
         "note": ""
       }
     ]
+  },
+  "i15": {
+    "order_freq_per_month": 0,
+    "history": [
+      {
+        "date": "2026-10-21",
+        "price": 476.6,
+        "note": ""
+      }
+    ]
   }
 }
