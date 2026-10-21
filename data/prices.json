@@ -243,5 +243,9 @@
         "note": ""
       }
     ]
+  },
+  "i34": {
+    "order_freq_per_month": 0,
+    "history": []
   }
 }
